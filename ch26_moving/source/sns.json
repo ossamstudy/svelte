@@ -1,0 +1,28 @@
+{
+    "sns": [
+        {
+            "id": 1,
+            "name": "youtube",
+            "img": "./img/sns01.svg",
+            "url": "https://www.youtube.com"
+        },
+        {
+            "id": 2,
+            "name": "instagram",
+            "img": "./img/sns02.svg",
+            "url": "https://www.instagram.com"
+        },
+        {
+            "id": 3,
+            "name": "twitter",
+            "img": "./img/sns03.svg",
+            "url": "https://twitter.com"
+        },
+        {
+            "id": 4,
+            "name": "facebook",
+            "img": "./img/sns04.svg",
+            "url": "https://www.facebook.com"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+*{ padding: 0; margin: 0; color: #333; }
+li{ list-style: none; }
+a{ text-decoration: none; }
+
+/* bestbox */
+.bestbox{
+    width: 1180px; margin: 0 auto;
+    padding: 10px 10px 50px; box-sizing: border-box;
+}
+.bestbox h2{ height: 70px; font-size: 30px; line-height: 70px; text-align: center; }
+.bestbox ul{ width: 100%; overflow: hidden; margin-bottom: 30px; }
+.bestbox li{ float: left; width: 270px; height: 270px; margin: 10px; }
+.bestbox li a{ display: block; width: 100%; height: 100%; position: relative; }
+.bestbox li a:hover .box{ opacity: 1; }
+.bestbox li img{ 
+	display: block; width: 100%; height: 100%;
+	object-fit: cover;
+}
+.bestbox .box{
+	width: 100%; height: 100%; 
+	position: absolute; top: 0; left: 0;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	padding: 30px; box-sizing: border-box;
+	opacity: 0; transition: 0.3s; display: flex; 
+	justify-content: center; align-items: center;
+}
+.bestbox .box > *{ color: #fff; }
+.bestbox .box h3{ font-size: 20px; }
+
+/* bestpage */
+.bestpage{ 
+	display: flex; width: 100%; padding-top: 10px;
+	justify-content: space-between; 
+}
+.bestpage > img{ width: calc(50% - 10px); }
+.bestpage .textwrap{ width: calc(50% - 10px); padding: 20px 0; position: relative; }
+.bestpage h4{ font-size: 20px; margin-bottom: 20px; }
+.bestpage h4 svg{ position: relative; top: 2px; }
+.bestpage h4 path{ color: #e51a92; }
+.bestpage p{ line-height: 1.5; margin-bottom: 20px; }
+.bestpage span{ font-weight: bold; }
+.bestpage button{ 
+	position: absolute; bottom: 20px;
+	left: 0; right: 0; margin: 0 auto;
+	width: 150px; height: 40px; border: none;
+	background-color: #e51a92; color: #fff; 
+	cursor: pointer; font-size: 16px;
+}
