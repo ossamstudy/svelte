@@ -1,5 +1,7 @@
 <script>
-	import Binding02 from "./Binding02.svelte";
+	import This from "./This.svelte";
 </script>
 
-<Binding02 />
+<This />
+<This />
+<This />
