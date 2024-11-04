@@ -1,5 +1,5 @@
 <script>
-	import Binding from "./Binding.svelte";
+	import Counter01 from "./Counter01.svelte";
 </script>
 
-<Binding />
+<Counter01 />

@@ -1,6 +1,6 @@
 <script>
-	import Update02 from "./Update02.svelte";
+	import Parent from "./Parent.svelte";
 </script>
 
-<Update02 />
+<Parent />
 
