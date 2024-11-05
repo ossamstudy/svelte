@@ -8,7 +8,7 @@
 </label>
 
 {#if visible}
-	<p transition:fly|global>Svelte Fly Effect</p>
+	<p transition:fly>Svelte Fly Effect</p>
 {/if}
 
 <style>

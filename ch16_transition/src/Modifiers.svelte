@@ -16,7 +16,7 @@
 
 {#if showItems}
     {#each items.slice(0, i) as item}
-        <div transition:slide|local>
+        <div transition:slide>
             {item}번째 리스트
         </div>
     {/each}

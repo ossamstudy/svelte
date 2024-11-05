@@ -9,8 +9,8 @@
 
 {#if visible}
 	<p 
-        in:fade|global={{ duration: 400 }}
-        out:fade|global={{ duration: 0 }}
+        in:fade={{ duration: 400 }}
+        out:fade={{ duration: 0 }}
     >Svelte Fade Effect</p>
 {/if}
 

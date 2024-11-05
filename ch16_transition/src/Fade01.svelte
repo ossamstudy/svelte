@@ -9,5 +9,5 @@
 </label>
 
 {#if visible}
-	<p transition:fade|global>Svelte Fade Effect</p>
+	<p transition:fade>Svelte Fade Effect</p>
 {/if}

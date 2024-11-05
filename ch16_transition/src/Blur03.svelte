@@ -9,8 +9,8 @@
 
 {#if visible}
 	<p
-        in:blur|global={{ amount: 20 }}
-        out:blur|global={{ amount: 0 }}
+        in:blur={{ amount: 20 }}
+        out:blur={{ amount: 0 }}
     >Svelte Blur Effect</p>
 {/if}
 

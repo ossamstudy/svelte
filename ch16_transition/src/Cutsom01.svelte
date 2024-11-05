@@ -23,7 +23,7 @@
 	<input type="checkbox" bind:checked={visible} /> 보임
 </label>
 {#if visible}
-	<div class="centered" in:spin|global={{ duration: 8000 }} out:fade|global>
+	<div class="centered" in:spin={{ duration: 8000 }} out:fade|global>
 		<span>transitions!</span>
 	</div>
 {/if}

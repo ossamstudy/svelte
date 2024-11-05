@@ -8,7 +8,7 @@
 </label>
 
 {#if visible}
-	<p transition:slide|global={{ axis: 'x' }}>Svelte Slide Effect</p>
+	<p transition:slide={{ axis: 'x' }}>Svelte Slide Effect</p>
 {/if}
 
 <style>

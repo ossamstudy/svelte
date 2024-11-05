@@ -13,7 +13,7 @@
 
 {#if visible}
     <p
-        transition:fly|global="{{ y: 200, duration: 2000 }}"
+        transition:fly="{{ y: 200, duration: 2000 }}"
         on:introstart="{() => status = '요소가 나타나기 시작~~'}"
         on:outrostart="{() => status = '요소가 사라지기 시작~~'}"
         on:introend="{() => status = '요소가 다 나타남!'}"

@@ -9,8 +9,8 @@
 
 {#if visible}
 	<p
-        in:fly|global={{ y: 200 }}
-        out:fly|global={{ y: 0 }}
+        in:fly={{ y: 200 }}
+        out:fly={{ y: 0 }}
     >Svelte Fly Effect</p>
 {/if}
 

@@ -8,7 +8,7 @@
 </label>
 
 {#if visible}
-	<p transition:slide|global>Svelte Slide Effect</p>
+	<p transition:slide>Svelte Slide Effect</p>
 {/if}
 
 <style>

@@ -48,8 +48,8 @@
         <h2>Unfinished Buckets</h2>
         {#each buckets as bucket (bucket.id)}
             <div
-                in:receive|global={{key: bucket.id}}
-                out:send|global={{key: bucket.id}}
+                in:receive={{key: bucket.id}}
+                out:send={{key: bucket.id}}
             >
                 <input type="checkbox" bind:checked={bucket.chk} on:change={() => moveRight(bucket)} />
                 <input type="text" placeholder="당신의 버킷리스트는 뭔가요?" style="width: 250px" bind:value={bucket.text} disabled={bucket.chk} />
@@ -62,8 +62,8 @@
         <h2>Finished Buckets</h2>
         {#each finished as bucket (bucket.id)}
             <div
-                in:receive|global={{key: bucket.id}}
-                out:send|global={{key: bucket.id}}
+                in:receive={{key: bucket.id}}
+                out:send={{key: bucket.id}}
             >
                 <input type="checkbox" bind:checked={bucket.chk} on:change={() => moveLeft(bucket)} />
                 <input type="text" placeholder="당신의 버킷리스트는 뭔가요?" style="width: 250px" bind:value={bucket.text} disabled={bucket.chk} />

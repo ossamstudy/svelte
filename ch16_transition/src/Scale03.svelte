@@ -9,8 +9,8 @@
 
 {#if visible}
 	<p
-        in:scale|global={{ start: 0 }}
-        out:scale|global={{ start: 0.5 }}
+        in:scale={{ start: 0 }}
+        out:scale={{ start: 0.5 }}
     >Svelte Scale Effect</p>
 {/if}
 

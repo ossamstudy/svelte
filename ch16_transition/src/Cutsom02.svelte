@@ -28,5 +28,5 @@
 </label>
 
 {#if visible}
-	<p in:typewriter|global out:fade|global>안녕하세요!!! 오쌤의 니가스터디입니다.</p>
+	<p in:typewriter out:fade>안녕하세요!!! 오쌤의 니가스터디입니다.</p>
 {/if}

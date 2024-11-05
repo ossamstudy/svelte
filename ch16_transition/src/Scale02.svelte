@@ -8,7 +8,7 @@
 </label>
 
 {#if visible}
-	<p transition:scale|global={{ start: 0.5 }}>Svelte Scale Effect</p>
+	<p transition:scale={{ start: 0.5 }}>Svelte Scale Effect</p>
 {/if}
 
 <style>

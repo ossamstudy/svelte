@@ -9,8 +9,8 @@
 
 {#if visible}
 	<p
-        in:slide|global={{ axis: 'y' }}
-        out:slide|global={{ axis: 'x' }}
+        in:slide={{ axis: 'y' }}
+        out:slide={{ axis: 'x' }}
     >Svelte Slide Effect</p>
 {/if}
 

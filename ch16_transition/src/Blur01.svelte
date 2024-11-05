@@ -8,7 +8,7 @@
 </label>
 
 {#if visible}
-	<p transition:blur|global={{}}>Svelte Blur Effect</p>
+	<p transition:blur>Svelte Blur Effect</p>
 {/if}
 
 <style>

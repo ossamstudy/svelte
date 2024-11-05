@@ -1,5 +1,5 @@
 <script>
-	import Body from "./Body.svelte";
+	import Element from "./Element.svelte";
 </script>
 
-<Body />
+<Element />

@@ -9,7 +9,7 @@
 </label>
 
 {#if visible}
-	<p transition:fade|global={{ 
+	<p transition:fade={{ 
         delay: 500, duration: 1000, easing: elasticInOut
     }}>Svelte Fade Effect</p>
 {/if}
