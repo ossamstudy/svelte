@@ -9,7 +9,7 @@ const setPromise = (url) => {
 		params: {language: 'ko', page: '1'},
 		headers: {
 			accept: 'application/json',
-    		Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNzIzNWM5NDVmZWY5MjQ4MjYyMzcyYjQ3MDc3MWEwZiIsInN1YiI6IjY1MzExM2VmNTFhNjRlMDBjOGZkZDllZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.HAM4KxHc1sW48Ff479mJR_TWwuHWStKla2NSEFsUM68'
+    		Authorization: 'Bearer TMDB인증키처리'
 		}
 	};
 	const getPromise = async () => {
@@ -36,7 +36,7 @@ const setDatas = (url) => {
 		params: {language: 'ko', page: '1'},
 		headers: {
 			accept: 'application/json',
-    		Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNzIzNWM5NDVmZWY5MjQ4MjYyMzcyYjQ3MDc3MWEwZiIsInN1YiI6IjY1MzExM2VmNTFhNjRlMDBjOGZkZDllZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.HAM4KxHc1sW48Ff479mJR_TWwuHWStKla2NSEFsUM68'
+    		Authorization: 'Bearer TMDB인증키처리'
 		}
 	};
 	const getDatas = async () => {
@@ -63,7 +63,7 @@ const setGenres = (url) => {
 		params: {language: 'ko'},
 		headers: {
 			accept: 'application/json',
-			Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNzIzNWM5NDVmZWY5MjQ4MjYyMzcyYjQ3MDc3MWEwZiIsInN1YiI6IjY1MzExM2VmNTFhNjRlMDBjOGZkZDllZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.HAM4KxHc1sW48Ff479mJR_TWwuHWStKla2NSEFsUM68'
+			Authorization: 'Bearer TMDB인증키처리'
 		}
 	};
 	const getGenres = async () => {

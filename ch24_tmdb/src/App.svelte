@@ -7,7 +7,7 @@
 		params: {language: 'ko', page: '1'},
 		headers: {
 			accept: 'application/json',
-    		Authorization: 'Bearer f3ec7bccc2f2a27ef8801df388ef8f5b'
+    		Authorization: 'Bearer TMDB인증키처리'
 		}
 	};
 
